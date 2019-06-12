@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d09f09a36048b488183901f46a76ce, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'Moscow, 2031. The world is dying. Storm troopers are taking control
+    of every sector. You are Mikhail Vladivostok, a professional meme engineer, one
+    of the last human survivors of the storm fighting to remain alive in the bubble
+    of death.
+
+    You wake up in the snow, cold and dizzy. Through the snowstorm, you notice something
+    that resembles a house. What will you do?
+
+
+    A. Get closer to check if it really could be a house.
+
+    B. Go the opposite of the house.'
+  nextStates:
+  - {fileID: 11400000, guid: 07abdcb715c4cda498c8b8d1296b6a7b, type: 2}
+  - {fileID: 11400000, guid: 527e0abe44da90b48ad565eb10e82b03, type: 2}

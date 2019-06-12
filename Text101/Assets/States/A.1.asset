@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17d09f09a36048b488183901f46a76ce, type: 3}
+  m_Name: A.1
+  m_EditorClassIdentifier: 
+  storyText: 'Slowly you manage to get closer, the snowstorm starts to clear and you
+    can finally see a little bit better that there really is a house, a real house
+    in front of your eyes. It looks abandoned, there''s probably nobody inside and
+    there could be a chance for you to find some resources, but, what do I know, you''re
+    the expert.
+
+    What will you do?
+
+
+    A. Quietly check the house from the outside to make sure nobody''s in.
+
+    B. Force your way in.'
+  nextStates:
+  - {fileID: 11400000, guid: 600a6ec564bb7194d8b6aac0a68037ca, type: 2}
+  - {fileID: 0}
